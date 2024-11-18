@@ -1,0 +1,49 @@
+Q1. Annotations 
+
+	@Component
+	@Autowired
+	@Bean
+	@Service
+	@Controller
+	@Repository
+	@SpringBootApplication
+	@ComponentScan
+	@EnableAutoConfiguration
+	@Required
+	@Qualifier
+
+Q2. Scenarios where spring framework is more useful than Node.js
+
+	POINT 1: Enterprise level banking System 
+
+	Why "SPRING FRAMEWORK": Provide advanced features like spring security and spring transaction management that handles authentication/authorization 	and for consistent data handling and excellent support for complex business workflow.
+	
+	Why not "Node.js" : Node.js suitable for lightweight app and may struggle to efficiently handle complex business logic, particularly if transaction 	management and security need extensive customization 
+	
+	POINT 2: Integration with legacy systems
+	
+	Why "SPRING FRAMEWORK": It has native support for java libraries, API's and framework ensure seamless integration.
+
+	Why not "Node.js" :  Doesn't have direct compatibility with java based library and framework requires middleware.
+
+Q3. Scenarios Where Spring Boot is More Useful Than Spring Framework
+
+	POINT 1 : Microservice development 
+	 	
+	Why "SPRING BOOT": It offers built-in Spring Cloud, which helps create REST APIs quickly with minimal configuration. Also provide an embedded 	server so that microservices can run independently with its own JAR files.
+
+	Why not "SPRING FRAMEWORK" : Requires extensive configuration, setting up external servers like Tomcat , and managing dependencies manually.
+	
+	
+	POINT 2 : Quick Prototyping 
+	
+	Why "SPRING BOOT": With help of auto-configuration and embedded server, helps build and deploy a prototype rapidly. Single main class sets up the 	app without requiring the XML configuration or manual server setup.
+
+	Why not "SPRING FRAMEWORK" : For prototyping a project in Spring Framework would involve defining XML config integrating a server like Tomcat and 	managing which slow down development 
+	
+	
+
+
+
+
+
